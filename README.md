@@ -1,6 +1,11 @@
 # Weather-Dashboard
 Retrieving weather data for cities
- 
+
+<img src="weather-dashboard.png">
+
+## Link to the site
+ https://mohamed-ugas.github.io/Weather-Dashboard/
+
 ## Acceptance Criteria
 
 * Create a weather dashboard with form inputs.
