@@ -75,43 +75,23 @@ fetch(queryUrlOne)
         const windValue = foreCast.wind.speed;
         const humidityValue = foreCast.main.humidity;
 
-        // console.log("Temp Element:", tempElement); // Debugging
-        // console.log("Wind Element:", windElement); // Debugging
-        // console.log("Humidity Element:", humidityElement); // Debugging
+        
 
         tempElement.textContent = "Temp: " + tempValue + " C";
         windElement.textContent = "Wind: " + windValue + " Kph";
         humidityElement.textContent = "Humidity: " + humidityValue + "%";
 
 
-            // console.log(cardTitle);
-            // console.log(tempElement)
-            // console.log(windElement);
-            // console.log(humidityElement);
-            
-        
            
-            // cardTitle.textContent = forecast.dt_txt;
-            // tempElement.textContent = "Temp: " + forecast.main.temp + " C";
-            // windElement.textContent = "Wind: " + forecast.wind.speed + " Kph";
-            // humidityElement.textContent = "Humidity: " + forecast.main.humidity + "%";
-            
-          }
-    })
-
-}
-
-
+        
+    }
+})
 var  cityButton = document.createElement("button");
 cityButton.innerHTML = cityName;
 document.getElementById("history").appendChild(cityButton);
 
-// step 1 : add event listener
-// get value from textbox 
-// call query url with value from textbox 
+}
 
-// add to the local storage, and creat a variable
 
-// create an element and added to the dom
 
 
